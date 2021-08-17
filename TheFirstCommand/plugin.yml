@@ -1,0 +1,15 @@
+name: TheFirstCommand # <- It means the name of the plugin
+version: 1.0.0 # <- It means the version from your plugin if it gets an update you can change it to 1.0.1, 1.1.0, 2.0.0 or whatever :D
+api: 3.0.0 # <- This is the PocketMine-API the School is for API 3.0.0
+main: Milchreisfan\TheFirstCommand\Main # <- That describes the way to the Main file
+author: Milchreisfan # <- The author/owner from the plugin, so you can put your name here :D
+description: "This is a school" # <- If you want you can descripe your plugin here
+
+commands: # <- Here you register the Commands
+  thefirstcommand: # <- This is the command you can write any name it can be /minecraft or whatever
+    description: "i'm the first command!" # <- this is the description behind the command
+    permission: firstcommand.cmd # <- this is the permission for the command
+
+permissions:
+  firstcommand.cmd:
+    description: "this is the permission from the firstcommand" # <- descripes the permission
